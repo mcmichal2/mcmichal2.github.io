@@ -1,0 +1,13 @@
+label>input{
+    margin-top: 20px;
+}
+label>textarea{
+    margin-top: 20px;
+}
+button{
+    margin-top: 20px;
+}
+body{
+    text-align: justify;
+    margin-top: 50px;
+}
