@@ -7,22 +7,23 @@
 </head>
 
 <body>
-    <form action="" method="">
+    <form action="https://formspree.io/mcmichal2@email.com"
+      method="POST">
 
         <!--      pole z imieniem
      input z textem + label!-->
 
-        <label for="name"> Imie: <input type="text" id="name"></label><br/>
+        <label for="name"> Imie: <input type="text" id="name" name='imie'></label><br/>
 
         <!--      pole z nazwikiem + label!-->
-        <label for="surname"> Nazwisko: <input type="text" id="surname"></label><br/>
+        <label for="surname"> Nazwisko: <input type="text" id="surname" name="nazwisko"></label><br/>
         <!--      pole  mailem, text z @! type='email'-->
-        <label for="mail"> email: <input type="email" id="mail"></label><br/>
+        <label for="mail"> email: <input type="email" id="mail" name="email"></label><br/>
         <!-- pole z numerem telefonu-->
-        <label for="nrkom"> Telefon: <input type="tel" id="nrkom"></label><br/>
+        <label for="nrkom"> Telefon: <input type="tel" id="nrkom" name="telefon"></label><br/>
         <!--        texarea text wiadomosc-->
         <label for="wiadomosc">Wiadomosc</label>
-        <textarea name="wiadomosc" id="" cols="30" rows="10"></textarea><br/>
+        <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10"></textarea><br/>
         <!--    przycisk-->
         <input type="submit" value="Wyslij wiadomosc">
     </form>
