@@ -1,0 +1,27 @@
+body{
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+.container{
+    
+    width: 40vw;
+    height: 30vhpx;
+    text-align: justify;
+    
+}
+.button{
+    padding-top: 2vh;
+}
+input{
+    margin-bottom: 2vh;
+}
+h4{
+    margin:0;
+    font-weight: 200;
+}
+input:invalid {
+  outline: 2px solid red;
+}
+input:empty{
+    outline: none;
+}
