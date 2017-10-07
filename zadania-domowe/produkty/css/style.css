@@ -32,7 +32,7 @@ body {
 }
 /*div z drugim backgroundem i przezroczystoscia 100%*/
 .opacity{
-    background-color:#ff6f00; 
+    background-color:rgba(255, 111, 0, 0.4); 
     opacity:0;
     color: #fff;
     height:100%;
@@ -68,7 +68,7 @@ body {
 }
 /*zmiana backgroundu*/
 .opacity:hover{
-    opacity: 0.6;
+    opacity: 1;
     transition-property: all;
     transition: all 0.5s;
     
