@@ -2,12 +2,47 @@
     margin: 0;
     padding: 0;
 }
-.main-nav ul{
-    display: inline-block;
+nav{
+    position: relative;
+    background-color: darkblue;
+    height: 20vh;
+}
+.main-nav1{
+    position: absolute;
+    left:0;
+    padding:10px;
+}
+.main-nav2{
+    position: absolute;
+    right: 0;
+    padding:10px;
+}
+.main-nav1 ul, .main-nav2 ul{
+    display: inline-flex;
     
 }
-.main-nav ul li{
+.main-nav1 ul li, .main-nav2 ul li{
     list-style-type: none;
     text-transform: uppercase;
-    
+    margin-right: 15px;
+    line-height: 10vh;
 }
+a:link{
+    color:#FFF;
+    text-decoration: none;
+}
+a:visited{
+    color: #FFF;
+}
+.some-content h1{
+    text-align: center;
+    font-size: 5em;
+    margin-top:15vh;
+}
+.triangle{
+         height: 0;
+    width: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-bottom: 12vh solid white;
+    border-top: 8vh solid transparent;
