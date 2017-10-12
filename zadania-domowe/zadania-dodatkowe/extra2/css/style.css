@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-nav ul{
+    display: inline-block;
+    
+}
+.main-nav ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+    
+}
