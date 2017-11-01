@@ -25,7 +25,7 @@ figure::before {
     width: 100%;
     position: absolute;
     border: solid #000 0px;
-    bottom: 0px;
+    bottom: 3px;
     right: -3px;
     border-left-width: 3px;
     border-bottom-width: 3px;
@@ -45,7 +45,7 @@ figure::after {
     border-top-width: 3px;
     border-left-width: 3px;
     transition: all .4s;
-    border-bottom: 0;
+    
 }
 
 figure {
@@ -53,9 +53,11 @@ figure {
     width: 600px;
     margin: auto;
     object-fit: cover;
+    
 }
 img{
     width: 100%;
+    height: 100%;
 }
 
 .napis {
@@ -80,10 +82,10 @@ figure:hover .napis {
 
 figure:hover::before {
     height: 50%;
-    border-bottom: -3px;
+    
 }
 
 figure:hover::after {
     height: 50%;
-    border-bottom: 3px;
+    
 }
