@@ -31,6 +31,7 @@ figure::before {
     border-bottom-width: 3px;
     border-right-width: 3px;
     transition: all .4s;
+    opacity:0;
 }
 
 figure::after {
@@ -45,7 +46,7 @@ figure::after {
     border-top-width: 3px;
     border-left-width: 3px;
     transition: all .4s;
-    
+    opacity:0;
 }
 
 figure {
@@ -82,10 +83,10 @@ figure:hover .napis {
 
 figure:hover::before {
     height: 50%;
-    
+    opacity:1;
 }
 
 figure:hover::after {
     height: 50%;
-    
+    opacity:1;
 }
