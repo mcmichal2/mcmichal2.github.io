@@ -1,0 +1,21 @@
+@media all and (max-width: 1200px) {
+    .col-md-4 figure img {
+        width: 290px;
+        height: 290px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .col-md-4 figure img {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media all and (max-width: 766px) {
+    .col-md-4 figure img {
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+    }
+}
