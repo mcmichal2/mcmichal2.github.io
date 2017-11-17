@@ -1,0 +1,103 @@
+@import '../variables/variables';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    background: url(../../img/background.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.opis {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    width: 20vw;
+    font-size: 1.2em;
+    span {
+        color: yellow;
+    }
+}
+
+.napis {
+    position: absolute;
+    right: 18vw;
+    top: 20vh;
+}
+
+form {
+    width: 20vw;
+    height: 50vh;
+    background-color: #0e0e89;
+    padding: 10px 25px;
+    position: absolute;
+    right: 15vw;
+    top: 35vh;
+    text-align: center;
+    overflow: hidden;
+    input {
+        width: 95%;
+        height: 7%;
+        margin-bottom: 10px;
+        &:focus {
+            background-color: lightblue;
+        }
+    }
+    textarea {
+        width: 95%;
+        height: 20%;
+        &:focus {
+            background-color: lightblue;
+        }
+    }
+    .button {
+        background-color: orange;
+        font-size: 1em;
+        text-transform: uppercase;
+        position: absolute;
+        left: 30px;
+        bottom: 20px;
+        border: none;
+        height: 10%;
+        padding: 0 20px;
+        width: 100px;
+    }
+    p {
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
+
+.adres {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+    font-weight: 600;
+    .nrkom {
+        display: flex;
+        i {
+            color: yellow;
+        }
+        p {
+            font-size: 30px;
+            line-height: 55px;
+        }
+    }
+    #logo {
+        width: 20%;
+        display: block;
+        i {
+            float: left;
+        }
+        p {
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding: 60px 30px;
+}
+
+.social_icons {
+    text-align: center;
+}
+
+.social_icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #222;
+    border: 1px solid #222;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFF;
+    transition: all 0.4s;
+    margin: 0 5px;
+}
+
+.social_icons a:hover {
+    background-color: #0ED8D6;
+    border: 1px solid #0ED8D6;
+}
+@import '../navigation/navigation';
+@import '../header/header';
+@import '../contact/contact';
+@import '../responsives/responsives';
+@import '../gallery/gallery';
+@import '../main-content/main-content';
+@import '../team/team';

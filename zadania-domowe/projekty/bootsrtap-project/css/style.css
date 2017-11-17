@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+}
+
+.main-header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-nav {
+    height: 50px;
+    transition: .4s;
+}
+
+.tekst {
+    font-size: 2rem;
+    align-content: center;
+    color: #FFF;
+    width: 60vw;
+}
+
+.tekst1 {
+    font-size: 1.5rem;
+    align-content: center;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-nav a:link {
+    color: #FFF;
+}
+
+#main-nav a:visited {
+    color: #FFF;
+}
+.btn{ background-color: dodgerblue;
+    color: #FFF;
+}
+.btn:hover{
+    background-color: #0ed8d6;
+}
+#myBtn {
+    background-color: dodgerblue;
+    color: #FFF;
+}
+
+#myBtn:hover {
+    background-color: #0ed8d6;
+}
+
+.transparent_blue {
+    background-color: rgba(72, 140, 209, 0.74);
+}
+
+.main-section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.tekst2 {
+    font-size: 1rem;
+    color: gray;
+    font-family: 'Montserrat', Italic;
+}
+
+.ikona {
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.size {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .row a:link {
+    font-size: 3em;
+    color: white;
+}
+
+.container .row a:visited {
+    color: white;
+}
+
+.ikona:hover {
+    background-color: #0ed8d6;
+    color: #252525;
+    transform:rotate(360deg);
+}
+
+.container {
+    display: flex;
+}
+.next{
+    overflow: hidden;
+    
+    
+}
+.next1 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+    
+}
+
+.next2 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+
+}
+
+.next3 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+
+}
+
+.next4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+.next5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+.next6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+    
+}
+.text-img{
+    display: flex;
+    align-content: center;
+}
+.hover{
+    transition: .5s;
+    transform: scale(1);
+/*    width: 400px;*/
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.hover:hover{
+    transform: scale(1.5);
+}
+.hover:hover .next{
+    
+}
+.mask{
+    width:100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 255, 255, 0.67);
+}
+.mask:hover{
+    opacity: 1;
+}
+.container .mask i{
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    color:#FFF;
+    font-size: 2em;
+}
+.druga{
+text-align: center;
+margin-top: 100px;}
+
+img{
+    height:200px;
+    margin-top:100px;
+}
+.druga i{
+    color:#FFF;
+    font-size:40px;
+    line-height: 10px;
+    
+}
+.iconsy{
+   display: flex;
+    justify-content:center;
+}
+.cir{
+    line-height: 50px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-left: 10px;
+}
+
+.cir:hover{
+    background-color: #FFF;
+   
+}
+.cir:hover i{
+    color:#000;
+}
+.tlo{
+    
+    height: 50vh;
+    background-image: url(../img/footer/world-map.jpg);
+}
+.input-data{
+    width:100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.container input{
+    height: 23%;
+}
+.contact-mask h3{
+    margin-top: 40px;
+}
+.main-footer{
+    height:30px;
+    background-color: black;
+    color: #fff;
+}

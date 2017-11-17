@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    background: url(../../img/background.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.opis {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    width: 20vw;
+    font-size: 1.2em;
+}
+
+.opis span {
+    color: yellow;
+}
+
+.napis {
+    position: absolute;
+    right: 18vw;
+    top: 20vh;
+}
+
+form {
+    width: 20vw;
+    height: 50vh;
+    background-color: #0e0e89;
+    padding: 10px 25px;
+    position: absolute;
+    right: 15vw;
+    top: 35vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+form input {
+    width: 95%;
+    height: 7%;
+    margin-bottom: 10px;
+}
+
+form input:focus {
+    background-color: lightblue;
+}
+
+form textarea {
+    width: 95%;
+    height: 20%;
+}
+
+form textarea:focus {
+    background-color: lightblue;
+}
+
+form .button {
+    background-color: orange;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    border: none;
+    height: 10%;
+    padding: 0 20px;
+    width: 100px;
+}
+
+form p {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.adres {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+.adres .nrkom {
+    display: flex;
+}
+
+.adres .nrkom i {
+    color: yellow;
+}
+
+.adres .nrkom p {
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.adres #logo {
+    width: 20%;
+    display: block;
+}
+
+.adres #logo i {
+    float: left;
+}
+
+.adres #logo p {
+    margin: 0;
+}

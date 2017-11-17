@@ -1,0 +1,32 @@
+$base-color: #220000;
+
+#main-nav{
+    background-color: $base-color;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 100;
+    
+    ul {
+        padding: 0;
+        list-style-type: none;
+        
+        li {
+            display: inline-block;
+            
+            
+            a{
+                color:#FFFFFF;
+                &:hover{
+                    color:yellow;
+                }
+            }
+            
+            &.red{
+                a{
+                    color: red;
+                }
+            }
+        }
+    }
+}
