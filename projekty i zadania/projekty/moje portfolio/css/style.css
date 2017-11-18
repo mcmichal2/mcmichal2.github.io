@@ -3,15 +3,16 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 
 /*Nawigacja*/
-.transparent{
-    background-color:rgba(142, 136, 134, 0.52);
+
+.transparent {
+    background-color: rgba(142, 136, 134, 0.52);
     transition: all 0.4s;
 }
+
 #main-nav {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -42,72 +43,124 @@
     display: flex;
     align-content: center;
     position: relative;
+    background-attachment: fixed;
 }
-.color{
-    color:#FFF;
+
+.color {
+    color: #FFF;
     transition: all 0.7s;
     transform: scale(1.1);
-    
 }
-.btn1{
+
+.podpis {
+    position: absolute;
+    top: 30%;
+    left:10%;
+    font-weight: 900;
+}
+.podpis span{
+    color:#fff;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.btn1 {
     position: absolute;
     top: 50%;
     transform: translate(-50%);
     left: 50%;
     padding: 10px 15px;
-    
 }
-.btn1:hover{
+
+.btn1:hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.53);
-    color:#FFF;
+    background-color: rgba(19, 19, 25, 0.53);
+    color: #FFF;
     border: solid black 1px;
 }
 
 
-/*Main-content*/
+/*Main-content  o-mnie*/
 
 .main-content {
-   background-color: rgba(142, 136, 134, 0.52);
+    background-color: rgba(142, 136, 134, 0.52);
     height: 100%;
     padding: 20px;
-    
 }
-.main-content h2{
+
+.main-content h2 {
     padding: 50px 0;
-    color:#fff;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
 }
-.main-content h2 span{
+
+.main-content h2 span {
     color: #000;
     text-transform: uppercase;
     letter-spacing: 2px;
+    
 }
 
 
 /*Kontakt*/
-.contact{
+
+.contact {
     background: rgba(142, 136, 134, 0.52);
     padding-bottom: 70px;
+    
 }
 
 .contact2 {
-    background-image: url(../img/contact.jpg);
+    background-image: url(../img/praca%20w%20grupie.jpg);
     background-size: cover;
     background-position: center;
     height: 50vh;
     width: 100%;
-    background-attachment: fixed;
+   
     background-repeat: no-repeat;
 }
-.contact3{
+
+.contact3 {
     background-color: rgba(142, 136, 134, 0.52);
+    height: 50vh;
+    width: 100%;
+}
+.contact4{
+    background-image: url(../img/Technique-for-Faster-Web-Development.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact5{
+    background-image: url(../img/mountains.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     
 }
-.contact3 h2{
+
+.contact3 h2 {
     position: absolute;
- top:20%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid #FFF 9px;
+}
+.moje_foto{
+    padding: 80px;
+}
+.opis3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 1px;
 }
 
 
