@@ -1,0 +1,41 @@
+#main-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/header/pictures_on_the_wall.jpg");
+    height: 100vh;
+    background-size: cover;
+  /* header - domyslnie block, zmieniam na flex */
+    display: flex;
+  /* wycentrowanie w poziomie */
+    justify-content: center;
+  /* wycentrowanie w pionie */
+    align-items: center;
+}
+
+#main-header .header_content {
+    color: #FFF;
+}
+
+#main-header .header_content h2 {
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 3em;
+}
+
+#main-header .header_content h1 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+#main-header .header_content .myBtn {
+    background-color: #0ED8D6;
+    border: 1px solid #0ED8D6;
+    color: #FFF;
+    text-transform: uppercase;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#main-header .header_content .myBtn:hover {
+    background-color: #FFF;
+    color: #0ED8D6;
+}

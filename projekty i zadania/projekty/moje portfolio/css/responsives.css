@@ -1,0 +1,13 @@
+@media all and (max-width: 992px){
+    
+    .flip-box{
+        width: 400px;
+        height: 400px;
+    }
+    .image.col-lg-4{
+        height:450px;
+        width: 750px;
+        display: flex;
+        justify-content: center;
+    }
+}

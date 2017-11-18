@@ -1,0 +1,20 @@
+#main-header {
+    height: 100vh;
+    background: url(http://www.zwierzosfera.pl/wp-content/uploads/2016/01/szkodzki-fold.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#main-header .inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    border: 10px solid black;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+}
