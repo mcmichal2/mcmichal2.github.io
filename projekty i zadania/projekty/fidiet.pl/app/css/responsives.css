@@ -1,0 +1,23 @@
+@media all and (max-width: 767px){
+    
+    .inner-motto{
+        font-size: 3em;
+        color:#FFF;
+          text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    }
+    .inner-motto span{
+        color:#FFF;
+          text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    }
+    .pw-header .pierwsza{
+        width:100vw;
+        height: 60vh;
+    }
+
+    
+    @media all and (min-width: 1400px){
+        .inner-motto{
+            font-size: 6em;
+            
+        }
+    }
