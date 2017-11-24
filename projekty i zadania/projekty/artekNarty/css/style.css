@@ -17,13 +17,15 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #417cd9;
-    font-size: 1.5em;
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: 900;
 
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #14099d;
+    color: #000;
+    text-shadow: 1px 2px 1px #FFF;
 }
 
 /*carousel*/
@@ -31,12 +33,12 @@ body {
 .slider {
     width: 100%;
     margin: 0 auto;
-    margin-top: 80px;
+    
 
 }
 
 .slider .carousel-inner .photo {
-    height: 90vh;
+    height: 100vh;
     object-fit: cover;
 }
 
