@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anaheim', sans-serif;
+}
+
+body {
+    background: url(../img/tloo.png);
+    background-attachment: fixed;
+
+}
+
+/*nawigacja*/
+
+.transparent {
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #417cd9;
+    font-size: 1.5em;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #14099d;
+}
+
+/*carousel*/
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+.slider .carousel-inner .photo {
+    height: 500px;
+    object-fit: cover;
+}
+
+.slider .carousel-inner .photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.slider .carousel-inner .photo .text p {
+    font-size: 100px;
+}
+
+.slider .control-size {
+    height: 100px;
+    width: 100px;
+}
+
+.slider-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 5;
+    font-size: 4em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/*main-content*/
+
+#main-content .container {
+    margin-top: 80px;
+}
+
+#main-content .container h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 4.5em;
+    color: #417cd9;
+    text-shadow: 1px 2px 1px #14099d;
+    margin-bottom: 50px;
+}
+
+#main-content .container h3 {
+    letter-spacing: 1.5px;
+}
+
+.selfie {
+    background-image: url(../img/selfie.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 450px;
+    border: 5px solid #d4d3d3;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*kontakt*/
+
+.contact-section {
+    background: lightgray;
+    padding: 30px 0;
+
+}
+
+/*footer*/
+
+footer {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #FFF;
+    margin-top: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+}
