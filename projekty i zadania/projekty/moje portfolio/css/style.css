@@ -57,6 +57,8 @@
     top: 30%;
     left:10%;
     font-weight: 900;
+    color:rgba(129, 227, 93, 0.92);
+    text-shadow: 1px 1px 2px #000;
 }
 .podpis span{
     color:#fff;
@@ -95,7 +97,7 @@
 }
 
 .main-content h2 span {
-    color: #000;
+    color:rgba(129, 227, 93, 0.92);
     text-transform: uppercase;
     letter-spacing: 2px;
     

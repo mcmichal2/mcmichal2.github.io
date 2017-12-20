@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mark {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 80px;
+    width: 80px;
+    border: 1px solid #FFF;
+    position: absolute;
+    bottom: 20%;
+    left: 2%;
+    color: #FFF;
+    h4 {
+        font-weight: 600;
+        padding: 2px 0 0 0;
+        font-size: 25px;
+
+    }
+    p {
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+
+    }
+}
+
+.main-header {
+    position: relative;
+    margin-top: 90px;
+    background-image: url(../../img/IMG_5959.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid #FFF;
+    font-family: 'Raleway', sans-serif;
+    -webkit-filter: contrast(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: contrast(110%);
+
+    .row {
+        .reservation {
+            height: 50px;
+            width: 300px;
+            background-color: #6d0c0c;
+            color: #FFF;
+            position: absolute;
+            right: 0;
+            top: 20%;
+            text-transform: uppercase;
+            padding: 2px;
+            h4 {
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 20px;
+
+
+            }
+            p {
+                font-size: 13px;
+                line-height: 13px;
+            }
+        }
+        .desc {
+            position: absolute;
+            bottom: 30%;
+            left: 30%;
+
+            h1,
+            h3 {
+
+                /*transform: translateX(20%);*/
+                color: #FFF;
+                letter-spacing: 5px;
+                font-weight: 200;
+                font-size: 80px;
+                text-shadow: 4px 4px 7px #000;
+                text-transform: uppercase;
+
+
+
+            }
+            h3 {
+                bottom: 15%;
+                font-size: 25px;
+                font-style: italic;
+                text-transform: none;
+                letter-spacing: 3px;
+
+                .green {
+
+                    padding: 0 5px;
+                    border-radius: 2px;
+                    background-color: rgba(24, 206, 24, 0.9);
+                    line-height: 40px;
+                    /*text-align: center;*/
+                }
+            }
+        }
+
+    }
+}

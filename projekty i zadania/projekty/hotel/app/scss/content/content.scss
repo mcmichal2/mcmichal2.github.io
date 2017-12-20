@@ -1,0 +1,115 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.content-header {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /*font-family: 'Raleway', sans-serif;*/
+    margin: 30px 0;
+    font-size: 60px;
+    font-weight: 400;
+
+}
+
+.col-md-12 p {
+    /* font-family: 'Raleway', sans-serif;*/
+    color: darkgray;
+    font-size: 20px;
+
+}
+
+.outer {
+    overflow: hidden;
+    img:hover {
+        transform: scale(1.2);
+        transition: all 0.4s;
+    }
+}
+
+/*               rooms         */
+
+.content {
+    height: 60vh;
+    border: 1px solid #FFF;
+
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
+
+
+    .info-box {
+        padding: 40px 20px;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        left: 10%;
+        top: 30px;
+        background-color: rgba(0, 0, 0, 0.78);
+        color: #FFF;
+
+
+        h3 {
+            font-weight: 100;
+            font-size: 40px;
+            letter-spacing: 15px;
+            text-transform: uppercase;
+
+        }
+
+        p {
+            font-weight: 100;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+
+            color: #FFF;
+            background-color: rgba(0, 0, 0, 0.2);
+            border: 1px solid #FFF;
+
+        }
+        .btn:hover {
+            color: rgba(0, 0, 0, 0.9);
+            background-color: #FFF;
+            border: 1px solid #000;
+        }
+    }
+
+}
+
+.main-spa {
+    margin-bottom: 90px;
+}
+
+.rooms {
+    background-image: url(../../img/3M1A5886a.png);
+}
+
+.spa {
+    background-image: url(../../img/Fotolia_85186820_Subscription_Monthly_XXL.png);
+    height: 400px;
+    width: 400px;
+}
+
+.conf {
+    background-image: url(../../img/Prostok%C4%85t%204%20kopia.png);
+    height: 400px;
+    width: 400px;
+}
+
+.location {
+    background-image: url(../../img/balkon.png);
+    .info-box {
+        width: 600px;
+    }
+}
+
+.family {
+    background-image: url(../../img/Fotolia_74380504_Subscription_Monthly_XXL.png);
+
+    .info-box {
+        width: 600px;
+    }
+}

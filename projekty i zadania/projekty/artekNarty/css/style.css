@@ -13,7 +13,7 @@ body {
 /*nawigacja*/
 
 .transparent {
-    background: rgba(136, 136, 136, 0.75);
+    background: rgba(145, 145, 145, 0.41);
 }
 #main-nav{
     padding: 30px 200px 30px 0;
@@ -120,7 +120,7 @@ body {
 footer {
     margin: 0;
     padding: 0;
-    background: #000;
+    background: rgba(152, 13, 13, 0.46);
     color: #FFF;
     margin-top: 30px;
     height: 30px;
