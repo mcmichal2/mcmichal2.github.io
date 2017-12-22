@@ -1,0 +1,194 @@
+@media all and (max-width:992px) {
+    .bx-wrapper img {
+
+
+        max-width: 32.5%;
+    }
+}
+
+@media all and (max-width:1300px) {
+    .desc {
+        bottom: 0%;
+        left: 10%;
+    }
+    .main-header .row .desc h1 {
+        font-size: 41px;
+    }
+    .main-header .row .desc h3 {
+        font-size: 25px;
+    }
+    .main-header .row .reservation {
+        top: 5%;
+    }
+     .input-group{
+        left: 2%;
+        margin-top:50%;
+    }
+}
+
+
+
+
+
+@media all and (max-width:1230px) {
+    #main-nav {
+        display: none;
+    }
+    .nav2 img {
+
+        vertical-align: middle;
+        border-style: none;
+        position: absolute;
+        right: 23px;
+        top: 23px;
+
+    }
+    .nav2 {
+        display: inline;
+    }
+     .input-group{
+        left: 2%;
+        margin-top:40%;
+    }
+    
+}
+
+@media all and (max-width:992px) {
+    .reservation {
+        bottom: 0px;
+    }
+    .info-box {
+    padding: 5px 20px;
+    width: 350px;
+    height: 320px;
+    position: absolute;
+    left: 6%;
+    top: 17px;
+    background-color: rgba(0, 0, 0, 0.78);
+    color: #FFF;
+    margin-top: 36px;
+}
+
+    .info-box h3 {
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    .info-box p{
+        font-size: 15px;
+    }
+    
+    .zgoda2{
+        left: 30%;
+    }
+    .input-group{
+        left: 2%;
+        margin-top:25%;
+    }
+    .text h2{
+        font-size: 20px;
+    }
+    .stopka{
+        display: inline;
+        h5{
+            font-size: 10px;
+        }
+        .col-md-3{
+            width: auto;
+        }
+    }
+
+}
+
+@media all and (max-width:835px) {
+    .main-header .row .reservation h4 {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .reservation p {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width:768px) {
+
+    .main-header .row .desc {
+
+        bottom: 4%;
+        left:2%;
+    }
+    .mark{
+        bottom: 55%;
+    }
+    .nav-item {
+        padding: 0px 4px;
+    }
+    .main-header .row .desc h1 {
+        font-size: 30px;
+    }
+    .main-header .row .desc h3 {
+        font-size: 15px;
+    }
+    .main-header .row .reservation {
+        top: 2%;
+        width: 100%;
+    }
+    .desc {
+        text-align: center;
+        /*width: 100vw;*/
+    }
+    .info-box{
+        width: 100%;
+        height: 100%;
+        left:0;
+        top:0;
+        margin: 0;
+        padding: 0
+        
+            p{
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+        
+            h3{
+            font-size: 20px;
+        }
+        
+}
+    .location .info-box {
+   
+            width: 100%;
+        
+    }
+    .family .info-box{
+        width: 100%;
+    }
+    
+}
+
+@media all and (max-width:640px) {
+    .map iframe{
+        width: 100%;
+        height: 100%;
+    }
+      .desc {
+        text-align: center;
+        width: 100vw;
+    }
+    .nav2 img {
+        vertical-align: middle;
+        border-style: none;
+        position: absolute;
+        right: 23px;
+        top: 10px;
+
+    }
+    .info-box p {
+        margin-bottom:0;
+    }
+    .desc2{
+        h3{
+            font-size: 4em;
+        }
+    }
+}

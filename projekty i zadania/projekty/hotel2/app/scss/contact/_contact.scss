@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.col-md-6 {
+    padding: 0;
+    
+
+}
+.zgoda2{
+    position: absolute;
+    left:50%;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.map {
+
+    border-left: 1px #FFF solid;
+    width: 100vw;
+}
+
+.form {
+    width: 100%;
+    background-image: url(../../img/3M1A9234.png);
+    background-position: right;
+    position: relative;
+    
+    .row{
+        margin-right: 0;
+    }
+
+
+
+}
+.text{
+    position: absolute;
+    left:0;
+    right: 0;
+    margin: auto;
+    
+    h2{
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    p{
+        color: #fff;
+    }
+}
+#contact{
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 10px;
+}
+iframe {
+
+    width: 100%;
+    padding: 0;
+}
+
+.input-group-btn {}
+
+.input-group {
+    left: 50%;
+    margin-top: 20%;
+
+}
+
+.black-info {
+
+    position: absolute;
+    right: 0;
+    height: 50%;
+    bottom: 0;
+    background-color: #000;
+}
+
+.stopka{
+    position: relative;
+    margin-bottom: 5px;
+}
