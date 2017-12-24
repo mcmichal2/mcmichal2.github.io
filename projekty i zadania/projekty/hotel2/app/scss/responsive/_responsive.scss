@@ -20,9 +20,9 @@
     .main-header .row .reservation {
         top: 5%;
     }
-     .input-group{
-        left: 2%;
-        margin-top:50%;
+    .input-group {
+        left: 50%;
+        margin-top: 32%;
     }
 }
 
@@ -46,11 +46,11 @@
     .nav2 {
         display: inline;
     }
-     .input-group{
-        left: 2%;
-        margin-top:40%;
+    .input-group {
+       
+        margin-top: 40%;
     }
-    
+
 }
 
 @media all and (max-width:992px) {
@@ -58,41 +58,41 @@
         bottom: 0px;
     }
     .info-box {
-    padding: 5px 20px;
-    width: 350px;
-    height: 320px;
-    position: absolute;
-    left: 6%;
-    top: 17px;
-    background-color: rgba(0, 0, 0, 0.78);
-    color: #FFF;
-    margin-top: 36px;
-}
+        padding: 5px 20px;
+        width: 350px;
+        height: 320px;
+        position: absolute;
+        left: 6%;
+        top: 17px;
+        background-color: rgba(0, 0, 0, 0.78);
+        color: #FFF;
+        margin-top: 36px;
+    }
 
     .info-box h3 {
         font-size: 40px;
         letter-spacing: 10px;
     }
-    .info-box p{
+    .info-box p {
         font-size: 15px;
     }
-    
-    .zgoda2{
+
+    .zgoda2 {
         left: 30%;
     }
-    .input-group{
+    .input-group {
         left: 2%;
-        margin-top:25%;
+        margin-top: 25%;
     }
-    .text h2{
+    .text h2 {
         font-size: 20px;
     }
-    .stopka{
+    .stopka {
         display: inline;
-        h5{
+        h5 {
             font-size: 10px;
         }
-        .col-md-3{
+        .col-md-3 {
             width: auto;
         }
     }
@@ -108,87 +108,97 @@
     .reservation p {
         font-size: 12px;
     }
-}
+    .input-group {
+        left: 1%;
+        margin-top: 30%
+    }
 
-@media all and (max-width:768px) {
+    @media all and (max-width:768px) {
 
-    .main-header .row .desc {
+        .main-header .row .desc {
 
-        bottom: 4%;
-        left:2%;
-    }
-    .mark{
-        bottom: 55%;
-    }
-    .nav-item {
-        padding: 0px 4px;
-    }
-    .main-header .row .desc h1 {
-        font-size: 30px;
-    }
-    .main-header .row .desc h3 {
-        font-size: 15px;
-    }
-    .main-header .row .reservation {
-        top: 2%;
-        width: 100%;
-    }
-    .desc {
-        text-align: center;
-        /*width: 100vw;*/
-    }
-    .info-box{
-        width: 100%;
-        height: 100%;
-        left:0;
-        top:0;
-        margin: 0;
-        padding: 0
-        
-            p{
-            margin-bottom: 10px;
-            margin-left: 20px;
+            bottom: 4%;
+            left: 2%;
         }
-        
-            h3{
-            font-size: 20px;
+        .mark {
+            bottom: 55%;
         }
-        
-}
-    .location .info-box {
-   
+        .nav-item {
+            padding: 0px 4px;
+        }
+        .main-header .row .desc h1 {
+            font-size: 30px;
+        }
+        .main-header .row .desc h3 {
+            font-size: 15px;
+        }
+        .main-header .row .reservation {
+            top: 2%;
             width: 100%;
-        
-    }
-    .family .info-box{
-        width: 100%;
-    }
-    
-}
+        }
+        .desc {
+            text-align: center;
+            /*width: 100vw;*/
+        }
+        .info-box {
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            margin: 0;
+            padding: 0 p {
+                margin-bottom: 10px;
+                margin-left: 20px;
+            }
 
-@media all and (max-width:640px) {
-    .map iframe{
-        width: 100%;
-        height: 100%;
-    }
-      .desc {
-        text-align: center;
-        width: 100vw;
-    }
-    .nav2 img {
-        vertical-align: middle;
-        border-style: none;
-        position: absolute;
-        right: 23px;
-        top: 10px;
+            h3 {
+                font-size: 20px;
+            }
+
+        }
+        .location .info-box {
+
+            width: 100%;
+
+        }
+        .family .info-box {
+            width: 100%;
+        }
 
     }
-    .info-box p {
-        margin-bottom:0;
+    .input-group {
+       
+        margin-top: 20%
     }
-    .desc2{
-        h3{
-            font-size: 4em;
+
+    @media all and (max-width:640px) {
+        .map iframe {
+            width: 100%;
+            height: 100%;
+        }
+        .desc {
+            text-align: center;
+            width: 100vw;
+        }
+        .nav2 img {
+            vertical-align: middle;
+            border-style: none;
+            position: absolute;
+            right: 23px;
+            top: 10px;
+
+        }
+        .info-box p {
+            margin-bottom: 0;
+        }
+        .desc2 {
+            h3 {
+                font-size: 4em;
+            }
+        }
+        .input-group {
+            left: 2%;
+            margin-top: 20%;
         }
     }
 }

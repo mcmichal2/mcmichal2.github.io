@@ -113,7 +113,7 @@ menu rozwijane*/
 .main-header {
   position: relative;
   margin-top: 90px;
-  background-image: url(../../img/IMG_5959.png);
+  background-image: url(../../img/IMG_5959.jpg);
   background-position: center;
   background-size: cover;
   height: 80vh;
@@ -242,32 +242,32 @@ menu rozwijane*/
   margin-bottom: 90px; }
 
 .rooms {
-  background-image: url(../../img/3M1A5886a.png);
+  background-image: url(../../img/3M1A5886a.jpg);
   position: relative;
   height: 50vw;
   overflow: auto; }
 
 .spa {
-  background-image: url(../../img/Fotolia_85186820_Subscription_Monthly_XXL.png);
+  background-image: url(../../img/Fotolia_85186820_Subscription_Monthly_XXL.jpg);
   height: 400px;
   width: 400px;
   position: relative; }
 
 .conf {
-  background-image: url(../../img/Prostok%C4%85t%204%20kopia.png);
+  background-image: url(../../img/Prostok%C4%85t%204%20kopia.jpg);
   height: 400px;
   width: 400px;
   position: relative; }
 
 .location {
-  background-image: url(../../img/balkon.png);
+  background-image: url(../../img/balkon.jpg);
   position: relative;
   height: 50vw; }
   .location .info-box {
     width: 600px; }
 
 .family {
-  background-image: url(../../img/Fotolia_74380504_Subscription_Monthly_XXL.png);
+  background-image: url(../../img/Fotolia_74380504_Subscription_Monthly_XXL.jpg);
   position: relative;
   height: 50vw;
   width: 100%; }
@@ -284,7 +284,8 @@ menu rozwijane*/
   padding: 0; }
 
 .col-md-6 {
-  padding: 0; }
+  padding: 0;
+  min-height: 100px; }
 
 .zgoda2 {
   position: absolute;
@@ -298,8 +299,9 @@ menu rozwijane*/
   width: 100vw; }
 
 .form {
+  height: 500px;
   width: 100%;
-  background-image: url(../../img/3M1A9234.png);
+  background-image: url(../../img/3M1A9234.jpg);
   background-position: right;
   position: relative; }
   .form .row {
@@ -328,7 +330,7 @@ iframe {
 
 .input-group {
   left: 50%;
-  margin-top: 20%; }
+  margin-top: 25%; }
 
 .black-info {
   position: absolute;
@@ -370,8 +372,8 @@ iframe {
   .main-header .row .reservation {
     top: 5%; }
   .input-group {
-    left: 2%;
-    margin-top: 50%; } }
+    left: 50%;
+    margin-top: 32%; } }
 
 @media all and (max-width: 1230px) {
   #main-nav {
@@ -385,7 +387,6 @@ iframe {
   .nav2 {
     display: inline; }
   .input-group {
-    left: 2%;
     margin-top: 40%; } }
 
 @media all and (max-width: 992px) {
@@ -426,9 +427,12 @@ iframe {
     font-size: 15px;
     line-height: 10px; }
   .reservation p {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .input-group {
+    left: 1%;
+    margin-top: 30%; } }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 835px) and (max-width: 768px) {
   .main-header .row .desc {
     bottom: 4%;
     left: 2%; }
@@ -462,7 +466,11 @@ iframe {
   .family .info-box {
     width: 100%; } }
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 835px) {
+  .input-group {
+    margin-top: 20%; } }
+
+@media all and (max-width: 835px) and (max-width: 640px) {
   .map iframe {
     width: 100%;
     height: 100%; }
@@ -478,4 +486,7 @@ iframe {
   .info-box p {
     margin-bottom: 0; }
   .desc2 h3 {
-    font-size: 4em; } }
+    font-size: 4em; }
+  .input-group {
+    left: 2%;
+    margin-top: 20%; } }
