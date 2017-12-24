@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="css/global/global.css">
+
 
     <title>Hotel Rekrutacja</title>
 
@@ -17,31 +20,88 @@
 <body>
 
 
-    <!-----------------------------nawigacja--------------------------------->
+    <nav class="nav2 navbar navbar-expand-sm bg-light navbar-light fixed-top">
+        <!-- Brand/logo -->
+        <a class=" navbar-brand" href="#">
+        </a>
+        <img src="img/logo.png" alt="logo" style="width:110px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+
+        <!-- Links -->
+        <ul class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar" style="height: 40px">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Spa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Restauracja</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Konferencja</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Wesele</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <!-----------------------nawigacja--------------------------------->
 
     <nav id="main-nav" class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="kwadrat" href="#">
-            <p>PL</p>
-        </a>
+
+        <p class=" kwadrat">PL</p>
+
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
             </button>
-        <div class="collapse navbar-collapse  dropdown " id="navbarSupportedContent">
+        <div class="collapse navbar-collapse  dropdown " aria-expanded="false" id="_navbarSupportedContent" role="definition">
             <ul class="navbar-nav  ml-auto w-100 justify-content text-uppercase">
-                <li class="nav-item">
+                <li class="nav-item hov">
                     <a class="nav-link" href="#">hotel</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">hotel1</a></li>
+                        <li><a href="#">hotel2</a></li>
+                        <li><a href="#">hotel3</a></li>
+                        <li><a href="#">hotel4</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item hov">
                     <a class=" nav-link" href="#">pokoje</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#rooms">pokoje1</a></li>
+                        <li><a href="#">pokoje2</a></li>
+                        <li><a href="#">pokoje3</a></li>
+                        <li><a href="#">pokoje4</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item hov">
                     <a class="nav-link" href="#">pakiety</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">pakiety1</a></li>
+                        <li><a href="#">pakiety2</a></li>
+                        <li><a href="#">pakiety3</a></li>
+                        <li><a href="#">pakiety4</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item hov">
                     <a class="nav-link" href="#">spa</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">spa1</a></li>
+                        <li><a href="#">spa2</a></li>
+                        <li><a href="#">spa3</a></li>
+                        <li><a href="#">spa4</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item" data-toggle="dropdown"><a class="dropdown-toggle nav-link" href="#">restauracja</a>
+                <li class="nav-item hov" data-toggle="dropdown"><a class=" nav-link" href="#">restauracja</a>
                     <ul class="dropdown-content">
                         <li><a href="#">restauracja1</a></li>
                         <li><a href="#">restauracja2</a></li>
@@ -52,22 +112,47 @@
             </ul>
         </div>
         <div class="logo"><img src="img/logo.png" alt=""></div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto w-100 justify-content-end text-uppercase">
-                <li class="nav-item">
+                <li class="nav-item hov">
                     <a class="nav-link" href="#">galeria</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">galeria1</a></li>
+                        <li><a href="#">galeria2</a></li>
+                        <li><a href="#">galeria3</a></li>
+                        <li><a href="#">galeria4</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item hov">
                     <a class="nav-link" href="#">konferencja</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">konferencja1</a></li>
+                        <li><a href="#">konferencja2</a></li>
+                        <li><a href="#">konferencja3</a></li>
+                        <li><a href="#">konferencja4</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item hov">
                     <a class="nav-link" href="#">wesele</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">wesele1</a></li>
+                        <li><a href="#">wesele2</a></li>
+                        <li><a href="#">wesele3</a></li>
+                        <li><a href="#">wesele4</a></li>
+                    </ul>
                 </li>
-                <li id="" class="nav-item">
+                <li class="nav-item hov">
                     <a class="nav-link" href="#">kontakt</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">kontakt1</a></li>
+                        <li><a href="#">kontakt2</a></li>
+                        <li><a href="#">kontakt3</a></li>
+                        <li><a href="#">kontakt4</a></li>
+                    </ul>
                 </li>
 
             </ul>
+
         </div>
     </nav>
 
@@ -78,15 +163,15 @@
     <header class="main-header container-fluid">
         <div class="row">
 
-            <div class="col-md-7 col-sm-4 desc">
+            <div class="col-md-7   desc">
                 <h1>Zachwycisz się</h1>
                 <h3>"Jeden z naszych ulubionych hoteli w Beskidach" <i class="fa fa-tripadvisor green"></i></h3>
             </div>
-            <div class="col-md-3 col-sm-4 reservation text-center">
+            <div class="col-md-3   reservation text-center">
                 <h4>ceny i rezerwacja</h4>
                 <p>gwarancja najniższej ceny</p>
             </div>
-            <div class="col-md-2 col-sm-4 mark text-center">
+            <div class="col-md-2  mark text-center">
                 <h4>9/10</h4>
                 <p>ocena gosci</p>
             </div>
@@ -102,76 +187,37 @@
             <div class="col-md-12 text-center">
                 <h2 class="content-header">pakiety pobytowe</h2>
                 <p>Rezerwuj i oszczędzaj! Zadzwoń <i class='fa fa-phone'></i> 33 283 828 92</p>
-                <div class="carousele"></div>
+
             </div>
         </div>
 
         <!---------------------------------------slider--------------------------->
 
-        <div id="slider">
-            <div class="slide-show conteiner-fluid">
-                <div class="single-slide row">
-                    <div class="col-md-4 text-center">
-                        <div class="outer"><img src="img/3M1A6023%20kopia.png" alt="slide1"></div>
-                        <p class="slide-cap">wspaniale wakacje 2015</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <div class="outer"><img src="img/3M1A5923.png" alt="slide2"></div>
-                        <p class="slide-cap">wspaniale wakacje 2015</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <div class="outer"><img src="img/3M1A5999.png" alt="slide3"></div>
-                        <p class="slide-cap">wspaniale wakacje 2015</p>
-                    </div>
-
-                </div>
-                <div class="single-slide row">
-                    <div class="col-md-4 text-center">
-                        <div class="outer"><img src="img/3M1A5999.png" alt="slide3"></div>
-                        <p class="slide-cap">wspaniale wakacje 2016</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <div class="outer"><img src="img/3M1A6023%20kopia.png" alt="slide1"></div>
-                        <p class="slide-cap">wspaniale wakacje 2016</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <div class="outer"><img src="img/3M1A5923.png" alt="slide2"></div>
-                        <p class="slide-cap">wspaniale wakacje 2016</p>
-                    </div>
 
 
-                </div>
-                <div class="single-slide row">
-                    <div class="col-md-4 text-center">
-                        <div class="outer"><img src="img/3M1A5923.png" alt="slide2"></div>
-                        <p class="slide-cap">wspaniale wakacje 2017</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <div class="outer">
-                            <img src="img/3M1A5999.png" alt="slide3"></div>
-                        <p class="slide-cap">wspaniale wakacje 2017</p>
-                    </div>
-
-                    <div class="col-md-4 text-center">
-                        <div class="outer">
-                            <img src="img/3M1A6023%20kopia.png" alt="slide1">
-                        </div>
-                        <p class="slide-cap">wspaniale wakacje 2017</p>
-                    </div>
-
-                </div>
+        <div class="slider">
+            <div>
+                <img src="img/3M1A6023%20kopia.png" alt=spa>
+                <img src="img/3M1A5999.png" alt=spa>
+                <img src="img/3M1A5999.png" alt=spa>
             </div>
-            <!------------------------------slider nav--------------------------------->
-            <div class="slider-arrows">
-                <a href="" class="prev-slide"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-                <a href="" class="next-slide"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <div>
+                <img src="img/3M1A6023%20kopia.png" alt=spa>
+                <img src="img/3M1A5999.png" alt=spa>
+                <img src="img/3M1A5999.png" alt=spa>
+            </div>
+            <div>
+                <img src="img/3M1A6023%20kopia.png" alt=spa>
+                <img src="img/3M1A5999.png" alt=spa>
+                <img src="img/3M1A5999.png" alt="spa">
             </div>
         </div>
 
+
         <!------------------------------------pokoje--------------------------------------------------->
     </section>
-    <section class="container-fluid content rooms">
-        <div class="info-box">
+    <section id="rooms" class="container-fluid content rooms">
+        <div class="responsive-image info-box">
             <h3>pokoje</h3>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, vel repellendus quae labore necessitatibus mollitia libero quia assumenda. Maiores, sed veniam odit provident aut reiciendis hic, ratione voluptas laboriosam adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque.</p>
             <input class="btn" type="button" value="wybierz swoj pokoj">
@@ -179,35 +225,15 @@
     </section>
     <section class="container main-spa">
         <div class="row">
-            <div class="col-md-5">
-                <div id="slider">
-                    <div class="slide-show">
-                        <div class="single-slide row">
-                            <div class="outer"><img src="img/Fotolia_85186820_Subscription_Monthly_XXL.png" alt="slide1"></div>
-                            
-                        </div>
-                        <div class="single-slide row">
+            <div class="col-md-5 slider2">
+                <div class="bxslider">
 
-                            <div class="outer"><img src="img/3M1A6023%20kopia.png" alt="slide1"></div>
-                            
-                        </div>
-                        <div class="single-slide row">
-
-                            <div class="outer"><img src="img/3M1A6023%20kopia.png" alt="slide1"></div>
-                          
-                        </div>
-
-                    </div>
-
-                    <!------------------------------slider nav--------------------------------->
-                    <div class="slider2-arrows">
-                        <a href="" class="prev-slide"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-                        <a href="" class="next-slide"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                    </div>
+                    <div><img src="img/Fotolia_85186820_Subscription_Monthly_XXL.png" alt='spa'></div>
+                    <div><img src="img/Prostok%C4%85t%204%20kopia.png" alt='spa'></div>
                 </div>
             </div>
-            <div class="col-md-7 ">
-                <div class="info-box">
+            <div class="col-md-7 col-xs-5 ">
+                <div class="desc2">
                     <h3>spa</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure facere culpa placeat aliquam atque id quidem, voluptas excepturi iste debitis recusandae. Rerum atque aperiam illum labore numquam corporis perspiciatis accusamus.</p>
                 </div>
@@ -224,9 +250,15 @@
     </section>
     <section class="container main-spa">
         <div class="row">
-            <div class="col-md-4 conf"></div>
-            <div class="col-md-8 ">
-                <div class="info-box">
+            <div class="col-md-5 slider2">
+                <div class="bxslider">
+                    <div><img src="img/Prostok%C4%85t%204%20kopia.png" alt='spa'></div>
+                    <div><img src="img/Fotolia_85186820_Subscription_Monthly_XXL.png" alt='spa'></div>
+
+                </div>
+            </div>
+            <div class="col-md-7 col-xs-5">
+                <div class="desc2">
                     <h3>konferencje</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure facere culpa placeat aliquam atque id quidem, voluptas excepturi iste debitis recusandae. Rerum atque aperiam illum labore numquam corporis perspiciatis accusamus.</p>
                 </div>
@@ -234,6 +266,7 @@
         </div>
     </section>
     <section class="container-fluid content family">
+
         <div class="info-box">
             <h3>wypoczynek z rodzina</h3>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, vel repellendus quae labore necessitatibus mollitia libero quia assumenda. Maiores, sed veniam odit provident aut reiciendis hic, ratione voluptas laboriosam adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque.</p>
@@ -241,17 +274,620 @@
         </div>
 
     </section>
+    <section id="contact" class="container-fluid content">
+        <div class="row">
+            <div class="col-md-6 map">
+                <style>
+                    #map {
+                        height: 500px;
+                        width: 100%;
+                    }
+                </style>
 
 
+                <div id="map"></div>
+                <script>
+                    function initMap() {
+
+                        // Create a new StyledMapType object, passing it an array of styles,
+                        // and the name to be displayed on the map type control.
+                        var styledMapType = new google.maps.StyledMapType(
+                            [{
+                                    elementType: 'geometry',
+                                    stylers: [{
+                                        color: '#ebe3cd'
+                                    }]
+                                },
+                                {
+                                    elementType: 'labels.text.fill',
+                                    stylers: [{
+                                        color: '#523735'
+                                    }]
+                                },
+                                {
+                                    elementType: 'labels.text.stroke',
+                                    stylers: [{
+                                        color: '#f5f1e6'
+                                    }]
+                                },
+                                {
+                                    featureType: 'administrative',
+                                    elementType: 'geometry.stroke',
+                                    stylers: [{
+                                        color: '#c9b2a6'
+                                    }]
+                                },
+                                {
+                                    featureType: 'administrative.land_parcel',
+                                    elementType: 'geometry.stroke',
+                                    stylers: [{
+                                        color: '#dcd2be'
+                                    }]
+                                },
+                                {
+                                    featureType: 'administrative.land_parcel',
+                                    elementType: 'labels.text.fill',
+                                    stylers: [{
+                                        color: '#ae9e90'
+                                    }]
+                                },
+                                {
+                                    featureType: 'landscape.natural',
+                                    elementType: 'geometry',
+                                    stylers: [{
+                                        color: '#dfd2ae'
+                                    }]
+                                },
+                                {
+                                    featureType: 'poi',
+                                    elementType: 'geometry',
+                                    stylers: [{
+                                        color: '#dfd2ae'
+                                    }]
+                                },
+                                {
+                                    featureType: 'poi',
+                                    elementType: 'labels.text.fill',
+                                    stylers: [{
+                                        color: '#93817c'
+                                    }]
+                                },
+                                {
+                                    featureType: 'poi.park',
+                                    elementType: 'geometry.fill',
+                                    stylers: [{
+                                        color: '#a5b076'
+                                    }]
+                                },
+                                {
+                                    featureType: 'poi.park',
+                                    elementType: 'labels.text.fill',
+                                    stylers: [{
+                                        color: '#447530'
+                                    }]
+                                },
+                                {
+                                    featureType: 'road',
+                                    elementType: 'geometry',
+                                    stylers: [{
+                                        color: '#f5f1e6'
+                                    }]
+                                },
+                                {
+                                    featureType: 'road.arterial',
+                                    elementType: 'geometry',
+                                    stylers: [{
+                                        color: '#fdfcf8'
+                                    }]
+                                },
+                                {
+                                    featureType: 'road.highway',
+                                    elementType: 'geometry',
+                                    stylers: [{
+                                        color: '#f8c967'
+                                    }]
+                                },
+                                {
+                                    featureType: 'road.highway',
+                                    elementType: 'geometry.stroke',
+                                    stylers: [{
+                                        color: '#e9bc62'
+                                    }]
+                                },
+                                {
+                                    featureType: 'road.highway.controlled_access',
+                                    elementType: 'geometry',
+                                    stylers: [{
+                                        color: '#e98d58'
+                                    }]
+                                },
+                                {
+                                    featureType: 'road.highway.controlled_access',
+                                    elementType: 'geometry.stroke',
+                                    stylers: [{
+                                        color: '#db8555'
+                                    }]
+                                },
+                                {
+                                    featureType: 'road.local',
+                                    elementType: 'labels.text.fill',
+                                    stylers: [{
+                                        color: '#806b63'
+                                    }]
+                                },
+                                {
+                                    featureType: 'transit.line',
+                                    elementType: 'geometry',
+                                    stylers: [{
+                                        color: '#dfd2ae'
+                                    }]
+                                },
+                                {
+                                    featureType: 'transit.line',
+                                    elementType: 'labels.text.fill',
+                                    stylers: [{
+                                        color: '#8f7d77'
+                                    }]
+                                },
+                                {
+                                    featureType: 'transit.line',
+                                    elementType: 'labels.text.stroke',
+                                    stylers: [{
+                                        color: '#ebe3cd'
+                                    }]
+                                },
+                                {
+                                    featureType: 'transit.station',
+                                    elementType: 'geometry',
+                                    stylers: [{
+                                        color: '#dfd2ae'
+                                    }]
+                                },
+                                {
+                                    featureType: 'water',
+                                    elementType: 'geometry.fill',
+                                    stylers: [{
+                                        color: '#b9d3c2'
+                                    }]
+                                },
+                                {
+                                    featureType: 'water',
+                                    elementType: 'labels.text.fill',
+                                    stylers: [{
+                                        color: '#92998d'
+                                    }]
+                                }
+                            ], {
+                                name: 'Styled Map'
+                            });
+
+                        // Create a map object, and include the MapTypeId to add
+                        // to the map type control.
+
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            center: {
+                                lat: 50.716,
+                                lng: 19.383
+                            },
+                            zoom: 11,
+                            mapTypeControlOptions: {
+                                mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+                                    'styled_map'
+                                ]
+                            }
 
 
+                        });
+                        var image = 'img/if_map-marker_173052.png';
+                        var marker = new google.maps.Marker({
+                            position: {
+                                lat: 50.716,
+                                lng: 19.383
+                            },
+                            
+                            icon: image,
+                            map: map
+                        });
 
+                        //Associate the styled map with the MapTypeId and set it to display.
+                        map.mapTypes.set('styled_map', styledMapType);
+                        map.setMapTypeId('styled_map');
+                    }
+                </script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOVRYavIxSd0diotU4L2qBM8XqRYIlCFg&callback=initMap">
+                </script>
+
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOVRYavIxSd0diotU4L2qBM8XqRYIlCFg&callback=initMap">
+                </script>
+            </div>
+            <div class="col-md-6 form">
+                <div class="black-info">"
+                    <div class="row">
+                        <div class="text text-center">
+                            <h2>zamow kod rabatowy</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                        <div class="col-lg-6 ">
+
+                            <div class="input-group c">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-secondary" aria-haspopup="true" aria-expanded="false">Wyślij</button>
+                                </div>
+                                <input type="email" size='100' class="form-control" placeholder="adres e-mail...">
+                            </div>
+                            <div class="zgoda2">
+                                <label for="zgoda"><input id="zgoda" type="checkbox" name="zgoda"> Akceptuję regulamin promocji *</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="stopka">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>nr kom</h5>
+                </div>
+                <div class="col-md-3">
+                    <h5>recepcja@hotel.com</h5>
+                </div>
+                <div class="col-md-3">
+                    <h5>media</h5>
+                </div>
+                <div class="col-md-3">
+                    <h5>powrót do góry</h5>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <!--JavaScript -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/global/global.css">
+
+
+    <title>Hotel Rekrutacja</title>
+
+</head>
+
+<body>
+
+
+    <nav class="nav2 navbar navbar-expand-sm bg-light navbar-light fixed-top">
+        <!-- Brand/logo -->
+        <a class=" navbar-brand" href="#">
+        </a>
+        <img src="img/logo.png" alt="logo" style="width:110px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+        <!-- Links -->
+        <ul class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar" style="height: 40px">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Spa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Restauracja</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Konferencja</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Wesele</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <!-----------------------nawigacja--------------------------------->
+
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light fixed-top">
+
+        <p class=" kwadrat">PL</p>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse  dropdown " aria-expanded="false" id="_navbarSupportedContent" role="definition">
+            <ul class="navbar-nav  ml-auto w-100 justify-content text-uppercase">
+                <li class="nav-item hov">
+                    <a class="nav-link" href="#">hotel</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">hotel1</a></li>
+                        <li><a href="#">hotel2</a></li>
+                        <li><a href="#">hotel3</a></li>
+                        <li><a href="#">hotel4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item hov">
+                    <a class=" nav-link" href="#">pokoje</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#rooms">pokoje1</a></li>
+                        <li><a href="#">pokoje2</a></li>
+                        <li><a href="#">pokoje3</a></li>
+                        <li><a href="#">pokoje4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item hov">
+                    <a class="nav-link" href="#">pakiety</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">pakiety1</a></li>
+                        <li><a href="#">pakiety2</a></li>
+                        <li><a href="#">pakiety3</a></li>
+                        <li><a href="#">pakiety4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item hov">
+                    <a class="nav-link" href="#">spa</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">spa1</a></li>
+                        <li><a href="#">spa2</a></li>
+                        <li><a href="#">spa3</a></li>
+                        <li><a href="#">spa4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item hov" data-toggle="dropdown"><a class=" nav-link" href="#">restauracja</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">restauracja1</a></li>
+                        <li><a href="#">restauracja2</a></li>
+                        <li><a href="#">restauracja3</a></li>
+                        <li><a href="#">restauracja4</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="logo"><img src="img/logo.png" alt=""></div>
+        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto w-100 justify-content-end text-uppercase">
+                <li class="nav-item hov">
+                    <a class="nav-link" href="#">galeria</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">galeria1</a></li>
+                        <li><a href="#">galeria2</a></li>
+                        <li><a href="#">galeria3</a></li>
+                        <li><a href="#">galeria4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item hov">
+                    <a class="nav-link" href="#">konferencja</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">konferencja1</a></li>
+                        <li><a href="#">konferencja2</a></li>
+                        <li><a href="#">konferencja3</a></li>
+                        <li><a href="#">konferencja4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item hov">
+                    <a class="nav-link" href="#">wesele</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">wesele1</a></li>
+                        <li><a href="#">wesele2</a></li>
+                        <li><a href="#">wesele3</a></li>
+                        <li><a href="#">wesele4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item hov">
+                    <a class="nav-link" href="#">kontakt</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">kontakt1</a></li>
+                        <li><a href="#">kontakt2</a></li>
+                        <li><a href="#">kontakt3</a></li>
+                        <li><a href="#">kontakt4</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-------------------------------nagłówek-------------------------------->
+
+
+    <header class="main-header container-fluid">
+        <div class="row">
+
+            <div class="col-md-7   desc">
+                <h1>Zachwycisz się</h1>
+                <h3>"Jeden z naszych ulubionych hoteli w Beskidach" <i class="fa fa-tripadvisor green"></i></h3>
+            </div>
+            <div class="col-md-3   reservation text-center">
+                <h4>ceny i rezerwacja</h4>
+                <p>gwarancja najniższej ceny</p>
+            </div>
+            <div class="col-md-2  mark text-center">
+                <h4>9/10</h4>
+                <p>ocena gosci</p>
+            </div>
+        </div>
+    </header>
+
+
+    <!-----------------------------------   pakiety pobytowe--------------------->
+
+
+    <section id="main-content" class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="content-header">pakiety pobytowe</h2>
+                <p>Rezerwuj i oszczędzaj! Zadzwoń <i class='fa fa-phone'></i> 33 283 828 92</p>
+
+            </div>
+        </div>
+
+        <!---------------------------------------slider--------------------------->
+
+
+
+        <div class="slider">
+            <div>
+                <img src="img/3M1A6023%20kopia.png" alt=spa>
+                <img src="img/3M1A5999.png" alt=spa>
+                <img src="img/3M1A5999.png" alt=spa>
+            </div>
+            <div>
+                <img src="img/3M1A6023%20kopia.png" alt=spa>
+                <img src="img/3M1A5999.png" alt=spa>
+                <img src="img/3M1A5999.png" alt=spa>
+            </div>
+            <div>
+                <img src="img/3M1A6023%20kopia.png" alt=spa>
+                <img src="img/3M1A5999.png" alt=spa>
+                <img src="img/3M1A5999.png" alt="spa">
+            </div>
+        </div>
+
+
+        <!------------------------------------pokoje--------------------------------------------------->
+    </section>
+    <section id="rooms" class="container-fluid content rooms">
+        <div class="responsive-image info-box">
+            <h3>pokoje</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, vel repellendus quae labore necessitatibus mollitia libero quia assumenda. Maiores, sed veniam odit provident aut reiciendis hic, ratione voluptas laboriosam adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque.</p>
+            <input class="btn" type="button" value="wybierz swoj pokoj">
+        </div>
+    </section>
+    <section class="container main-spa">
+        <div class="row">
+            <div class="col-md-5 slider2">
+                <div class="bxslider">
+
+                    <div><img src="img/Fotolia_85186820_Subscription_Monthly_XXL.png" alt='spa'></div>
+                    <div><img src="img/Prostok%C4%85t%204%20kopia.png" alt='spa'></div>
+                </div>
+            </div>
+            <div class="col-md-7 col-xs-5 ">
+                <div class="desc2">
+                    <h3>spa</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure facere culpa placeat aliquam atque id quidem, voluptas excepturi iste debitis recusandae. Rerum atque aperiam illum labore numquam corporis perspiciatis accusamus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid content location">
+        <div class="info-box">
+            <h3>lokalizacja</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, vel repellendus quae labore necessitatibus mollitia libero quia assumenda. Maiores, sed veniam odit provident aut reiciendis hic, ratione voluptas laboriosam adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque.</p>
+            <input class="btn" type="button" value="odkryj to miejsce">
+        </div>
+
+    </section>
+    <section class="container main-spa">
+        <div class="row">
+            <div class="col-md-5 slider2">
+                <div class="bxslider">
+                    <div><img src="img/Prostok%C4%85t%204%20kopia.png" alt='spa'></div>
+                    <div><img src="img/Fotolia_85186820_Subscription_Monthly_XXL.png" alt='spa'></div>
+
+                </div>
+            </div>
+            <div class="col-md-7 col-xs-5">
+                <div class="desc2">
+                    <h3>konferencje</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure facere culpa placeat aliquam atque id quidem, voluptas excepturi iste debitis recusandae. Rerum atque aperiam illum labore numquam corporis perspiciatis accusamus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid content family">
+
+        <div class="info-box">
+            <h3>wypoczynek z rodzina</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, vel repellendus quae labore necessitatibus mollitia libero quia assumenda. Maiores, sed veniam odit provident aut reiciendis hic, ratione voluptas laboriosam adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque.</p>
+
+        </div>
+
+    </section>
+    <section id="contact" class="container-fluid content">
+        <div class="row">
+            <div class="col-md-6 map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20784.69172045074!2d22.413265967838992!3d49.369436873569555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473bf6bfb7c6097d%3A0xd3c738e804568a81!2s38-610+Pola%C5%84czyk!5e0!3m2!1spl!2spl!4v1513937362843" width="600" height="450"  style="border:0" allowfullscreen></iframe></div>
+            <div class="col-md-6 form">
+                <div class="black-info">"
+                    <div class="row">
+                        <div class="text text-center">
+                            <h2>zamow kod rabatowy</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                        <div class="col-lg-6 ">
+
+                            <div class="input-group c">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-secondary" aria-haspopup="true" aria-expanded="false">Wyślij</button>
+                                </div>
+                                <input type="email" size='100' class="form-control" placeholder="adres e-mail...">
+                            </div>
+                            <div class="zgoda2">
+                                <label for="zgoda"><input id="zgoda" type="checkbox" name="zgoda"> Akceptuję regulamin promocji *</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="stopka">
+       <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>nr kom</h5>
+            </div>
+            <div class="col-md-3">
+                <h5>recepcja@hotel.com</h5>
+            </div>
+            <div class="col-md-3">
+                <h5>media</h5>
+            </div>
+            <div class="col-md-3">
+                <h5>powrót do góry</h5>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--JavaScript -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+>>>>>>> 8f220079ac70ae2bdb5ec41ec9ffbd5a623ef301
 </html>
