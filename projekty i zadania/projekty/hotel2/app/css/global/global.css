@@ -9,7 +9,10 @@ menu rozwijane*/
   display: block; }
 
 .nav2 {
-  display: none; }
+  display: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; }
   .nav2 .navbar-nav .nav-item a:visited {
     color: #000;
     font-weight: 400; }
@@ -260,7 +263,7 @@ menu rozwijane*/
   position: relative; }
 
 .location {
-  background-image: url(../../img/balkon.jpg);
+  background-image: url(../../img/balkon.png);
   position: relative;
   height: 50vw; }
   .location .info-box {
@@ -307,6 +310,37 @@ menu rozwijane*/
   .form .row {
     margin-right: 0; }
 
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 50px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #000;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  border: 1px solid #fff; }
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */ }
+
 .text {
   position: absolute;
   left: 0;
@@ -342,6 +376,11 @@ iframe {
 .stopka {
   position: relative;
   margin-bottom: 5px; }
+
+.hov2:hover {
+  color: #5d5757;
+  transform: scale(1.1);
+  cursor: pointer; }
 
 .slider {
   display: flex;
@@ -433,13 +472,18 @@ iframe {
     margin-top: 30%; } }
 
 @media all and (max-width: 835px) and (max-width: 768px) {
+  .stopka .row {
+    display: inline; }
+  .col-md-4 {
+    display: inline;
+    text-align: center; }
   .main-header .row .desc {
     bottom: 4%;
     left: 2%; }
   .mark {
     bottom: 55%; }
   .nav-item {
-    padding: 0px 4px; }
+    padding: 0px 2px; }
   .main-header .row .desc h1 {
     font-size: 30px; }
   .main-header .row .desc h3 {
@@ -456,7 +500,7 @@ iframe {
     left: 0;
     top: 0;
     margin: 0;
-    padding: 0;
+    padding: 0 p;
       padding-margin-bottom: 10px;
       padding-margin-left: 20px; }
     .info-box h3 {

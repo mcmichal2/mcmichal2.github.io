@@ -23,7 +23,7 @@
         <!-- Brand/logo -->
         <a class=" navbar-brand" href="#">
         </a>
-        <img src="img/logo.png" alt="logo" style="width:110px;">
+        <img src="img/logo.png" alt="logo" style="width:100px;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -110,7 +110,7 @@
                 </li>
             </ul>
         </div>
-        <div class="logo"><img src="img/logo.png" alt=""></div>
+        <div class="logo"><img src="img/logo.jpg" alt=""></div>
         <div class=" collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto w-100 justify-content-end text-uppercase">
                 <li class="nav-item hov">
@@ -281,6 +281,7 @@
                         height: 500px;
                         width: 100%;
                     }
+
                 </style>
 
 
@@ -483,7 +484,7 @@
                                 lat: 50.716,
                                 lng: 19.383
                             },
-                            
+
                             icon: image,
                             map: map
                         });
@@ -492,11 +493,16 @@
                         map.mapTypes.set('styled_map', styledMapType);
                         map.setMapTypeId('styled_map');
                     }
+
                 </script>
                 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOVRYavIxSd0diotU4L2qBM8XqRYIlCFg&callback=initMap">
+
+
                 </script>
 
                 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOVRYavIxSd0diotU4L2qBM8XqRYIlCFg&callback=initMap">
+
+
                 </script>
             </div>
             <div class="col-md-6 form">
@@ -526,19 +532,26 @@
     </section>
     <section class="stopka">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h5>nr kom</h5>
+            <div class="row abc">
+                <div class="col-md-4">
+                    <h5>nr kom +48 508 206 403</h5>
                 </div>
-                <div class="col-md-3">
-                    <h5>recepcja@hotel.com</h5>
+                <div class="col-md-4">
+                    <h5>michal.ciombor@gmail.com</h5>
                 </div>
-                <div class="col-md-3">
-                    <h5>media</h5>
+                <div class="col-md-4">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-md-4"><i class="fa fa-facebook hov2"></i></div>
+                            <div class="col-md-4"><i class="fa fa-twitter hov2"></i></div>
+                            <div class="col-md-4"><i class="fa fa-instagram hov2"></i></div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col-md-3">
-                    <h5>powrót do góry</h5>
-                </div>
+
+                <button onclick="topFunction()" id="myBtn" title="Powrót do góry">Do góry</button>
+
             </div>
         </div>
 

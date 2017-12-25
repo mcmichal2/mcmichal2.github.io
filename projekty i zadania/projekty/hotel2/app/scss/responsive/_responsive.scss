@@ -114,7 +114,13 @@
     }
 
     @media all and (max-width:768px) {
-
+        .stopka .row{
+            display: inline;
+        }
+        .col-md-4{
+            display: inline;
+            text-align: center;
+        }
         .main-header .row .desc {
 
             bottom: 4%;
@@ -124,7 +130,7 @@
             bottom: 55%;
         }
         .nav-item {
-            padding: 0px 4px;
+            padding: 0px 2px;
         }
         .main-header .row .desc h1 {
             font-size: 30px;
