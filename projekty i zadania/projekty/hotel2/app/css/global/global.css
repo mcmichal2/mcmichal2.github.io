@@ -534,3 +534,12 @@ iframe {
   .input-group {
     left: 2%;
     margin-top: 20%; } }
+@media all and (max-width: 360px) {
+        .bx-wrapper img {
+            max-width: 32%;
+        }
+        .content-header{
+            font-size: 10px;
+        }
+    }
+
