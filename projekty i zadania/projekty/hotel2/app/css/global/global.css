@@ -7,7 +7,9 @@
 menu rozwijane*/
 .show {
   display: block; }
-
+.hide{
+  display: none;
+}
 .nav2 {
   display: none;
   padding: 0;
