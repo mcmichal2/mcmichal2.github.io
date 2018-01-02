@@ -8,13 +8,14 @@ $(document).ready(function(){
   slideWidth: 600
     
     });
-    
-$('.navbar-toggler').click(function(){
+    $('.navbar-toggler').click(function(){
         
         
         $('.nav-item').toggleClass('hide')
            
     });
+    
+
     
     
 });
