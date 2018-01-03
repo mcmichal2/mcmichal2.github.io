@@ -550,4 +550,6 @@ iframe {
         left: 2%;
         margin-top: 40%;
     }
+  .info-box{
+    overflow: auto;
 }
