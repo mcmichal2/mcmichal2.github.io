@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>Challange-1 Michał Ciombor</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo1.png" alt="top-logo">
+    </header>
+    <div class="all-form">
+        <div class="left-column column">
+            <h2>Register Form</h2>
+            <div class="container">
+                <form>
+                    <div class="inputWithIcon">
+                        <input type="text" placeholder="Username" required>
+                        <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <div class="inputWithIcon">
+                        <input type="password" placeholder="Password" required>
+                        <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <div class="inputWithIcon">
+                        <input type="password" placeholder="Confirm Password" required>
+                        <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <div class="inputWithIcon">
+                        <input type="email" placeholder="Email" required>
+                        <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <div class="selectWithIcon">
+                        <select name="location" id="location"  required>
+                            <option value disabled selected>Your Location</option>
+                            <option value="warszawa">Zabierzów</option>
+                            <option value="krakow">Kraków</option>
+                            <option value="poznan">Krzeszowice</option>
+                            <option value="gdansk">Trzebinia</option>
+                            <option value="gdansk">Chrzanów</option>
+                        </select>
+                    <i class="fa fa-map-marker-alt fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="sign-up-checkbox" required> 
+                        <label for="sign-up-checkbox" class="sign_up-checkbox">I have read and accept the terms of use
+				        </label>
+                    </div> 
+                    <input type="submit" value="Sign up" class="submit-button">      
+                </form>
+            </div>
+            <h2>Send Email</h2>
+            <div class="container">
+                <form>
+                    <div class="inputWithIcon">
+                        <input type="text" placeholder="Username" required>
+                        <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <div class="inputWithIcon">
+                        <input type="password" placeholder="Password" required>
+                        <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <div class="inputWithIcon">
+                        <input type="email" placeholder="Your Email" required>
+                        <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <div class="inputWithIcon">
+                        <textarea placeholder="Type your message..."></textarea>
+                    </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="send-email-checkbox"> 
+                    <label for="send-email-checkbox" class="send_email-checkbox">Send a copy to my Email</label>
+                </div> 
+                    <input type="submit" value="Send Email" class="submit-button">      
+                </form>
+            </div>
+        </div>
+        <div class="right-column column">
+            <h2>Sign In Form</h2>
+            <div class="container">
+                <form>
+                    <div class="inputWithIcon">
+                        <input type="text" placeholder="Username" required>
+                        <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <div class="inputWithIcon">
+                        <input type="password" placeholder="Password" required>
+                        <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                <div class="checkbox right" >
+                    <input type="checkbox" id="remeber-checkbox"> 
+                    <label for="remember-checkbox" class="remember_checkbox">Remember Me</label>
+                </div> 
+                <input type="submit" value="Sign in" class="submit-button small-button">      
+                </form>
+            </div>
+            <h2>Recover Form</h2>
+            <div class="container">
+                <form>
+                    <div class="inputWithIcon">
+                        <input type="email" placeholder="Enter your Email" required>
+                        <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <div class="inputWithIcon">
+                        <input type="tel" placeholder="Enter your Phone number" required>
+                        <i class="fa fa-mobile-alt fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <input type="submit" value="Send" class="submit-button small-button2">  
+                    <input type="submit" value="Done" class="submit-button small-button-done" disabled>   
+                </form>
+            </div>
+            <h2>Subscribe Form</h2>
+            <div class="container">
+                <form>
+                    <div class="inputWithIcon">
+                        <input type="email" placeholder="Enter your Email" required>
+                        <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <input type="submit" value="Subscribe" class="submit-button small-button2">  
+                    <input type="submit" value="No, Thanks" class="submit-button small-button-no">
+                </form>
+            </div>
+            <footer>
+                 <img src="img/logo2.png" alt="top-logo">
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
