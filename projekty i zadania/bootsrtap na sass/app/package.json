@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "cssbeautify": "^0.3.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sass": "^3.1.0"
   },
   "scripts": {
